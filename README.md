@@ -1,6 +1,6 @@
 # Regression
-import pandas as pd
-import numpy as np
+import pandas as pd\\
+import numpy as np\\
 import matplotlib.pyplot as plt
 dataset = pd.read_csv("kddcup99.csv")
 x = dataset.iloc[:, [0, 18]].values
